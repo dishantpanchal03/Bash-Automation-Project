@@ -1,0 +1,195 @@
+# **Project Report**
+
+## **Project Title**
+
+**Bash Scripting for File Management, Log Parsing, and Automation**
+
+---
+
+# **1. Objective**
+
+The objective of this project is to automate common Linux system administration tasks using Bash scripting. The project demonstrates how shell scripts can simplify repetitive operations such as organizing files, analyzing log files, and retrieving system information.
+
+---
+
+# **2. Project Description**
+
+This project consists of three Bash scripts:
+
+* **File Management Script:** Organizes files into separate directories based on their file extensions.
+* **Log Parsing Script:** Reads a log file and identifies the number of INFO, WARNING, and ERROR messages.
+* **Automation Script:** Collects and displays essential system information such as the current user, system date, memory usage, disk usage, and uptime.
+
+These scripts improve efficiency by reducing manual effort and minimizing the possibility of human error.
+
+---
+
+# **3. Requirements**
+
+### Hardware Requirements
+
+* Computer/Laptop
+* Minimum 4 GB RAM
+* Internet Connection (optional)
+
+### Software Requirements
+
+* Ubuntu Linux (or any Linux distribution)
+* Bash Shell
+* Nano Text Editor
+* Tree utility (optional)
+* Terminal
+
+---
+
+# **4. Project Structure**
+
+```
+BashAutomationProject/
+│
+├── file_manager.sh
+├── log_parser.sh
+├── automation.sh
+├── sample.log
+│
+├── Documents/
+│      report.pdf
+│
+├── Images/
+│      photo.jpg
+│
+└── Videos/
+       movie.mp4
+```
+
+---
+
+# **5. Implementation**
+
+## Task 1: File Management
+
+A Bash script was created to automate file organization. It creates separate directories for different file types and moves files into their respective folders.
+
+### Operations Performed
+
+* Create directories
+* Create sample files
+* Move PDF files to Documents
+* Move JPG files to Images
+* Move MP4 files to Videos
+
+### Commands Used
+
+* mkdir
+* touch
+* mv
+
+---
+
+## Task 2: Log Parsing
+
+A sample log file was created containing different log levels.
+
+The script uses the **grep** command to:
+
+* Display ERROR messages
+* Count ERROR logs
+* Count WARNING logs
+* Count INFO logs
+
+### Commands Used
+
+* grep
+* grep -c
+
+---
+
+## Task 3: Automation
+
+A Bash automation script was created to display useful system information.
+
+The script retrieves:
+
+* Current Date
+* Logged-in User
+* Disk Usage
+* Memory Usage
+* System Uptime
+
+### Commands Used
+
+* date
+* whoami
+* df -h
+* free -h
+* uptime
+
+---
+
+# **6. Execution Steps**
+
+1. Create a project directory.
+2. Create Bash script files.
+3. Write the required Bash code.
+4. Save the scripts.
+5. Provide executable permission using:
+
+```bash
+chmod +x *.sh
+```
+
+6. Execute the scripts:
+
+```bash
+./file_manager.sh
+./log_parser.sh
+./automation.sh
+```
+
+---
+
+# **7. Output**
+
+The project successfully performed the following operations:
+
+* Organized files into separate directories.
+* Parsed log files and counted different log levels.
+* Displayed system information including memory usage, disk usage, uptime, current user, and date.
+
+The outputs verified that each script executed successfully.
+
+---
+
+# **8. Applications**
+
+* Linux System Administration
+* DevOps Automation
+* Server Maintenance
+* Log Monitoring
+* File Organization
+* Daily Administrative Tasks
+
+---
+
+# **9. Key Learnings**
+
+During this project, the following concepts were learned:
+
+* Basics of Bash shell scripting.
+* Writing executable shell scripts.
+* Using Linux file management commands.
+* Parsing log files with grep.
+* Automating repetitive Linux tasks.
+* Working with system monitoring commands.
+* Managing file permissions using chmod.
+
+---
+
+# **10. Conclusion**
+
+This project demonstrated how Bash scripting can automate routine Linux administration tasks efficiently. By developing scripts for file management, log parsing, and system monitoring, repetitive manual operations were simplified, improving productivity and reducing errors. The project also strengthened practical knowledge of Linux commands, shell scripting, and automation concepts commonly used in DevOps and system administration.
+
+---
+
+**End of Report**
+
